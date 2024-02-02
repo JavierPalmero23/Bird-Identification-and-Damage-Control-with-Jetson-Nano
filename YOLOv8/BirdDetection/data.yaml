@@ -1,0 +1,13 @@
+path: "/content/drive/MyDrive/Colab DataSets/BirdYOLOv4T/BirdDetection2"
+train: images/train
+val: images/valid
+test: images/test
+nc: 1
+names: ['Bird']
+
+roboflow:
+  workspace: birdnobird
+  project: birdnobird
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/birdnobird/birdnobird/dataset/2
